@@ -2,7 +2,7 @@
 const baseTestRomURL = 'https://www.emulatorjs.com'
 
 function baseEmulator(game, clientId = 1, player = '#game'){
-	EJS_player = '#game';
+	EJS_player = player;
     	EJS_core = game.core;
 	EJS_biosUrl = game.bios || ''; // Url to Bios file
     	EJS_gameUrl = game.url; // Url to Game rom 
